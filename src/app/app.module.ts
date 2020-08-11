@@ -7,9 +7,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
+import { Comp1Component } from './components/comp1/comp1.component';
+import { Comp2Component } from './components/comp2/comp2.component';
 
 @NgModule({
-    declarations: [AppComponent],
+    declarations: [AppComponent, Comp1Component, Comp2Component],
     imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatSidenavModule, MatMenuModule, MatIconModule],
     providers: [],
     bootstrap: [AppComponent]
